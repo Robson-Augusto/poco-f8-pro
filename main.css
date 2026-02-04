@@ -488,7 +488,6 @@ html[data-mi-dir=rtl] .xm-text,
     z-index: 3;
     box-sizing: border-box;
     flex-direction: column;
-    align-items: center;
     width: 3.72656rem;
     min-height: 1.6875rem;
     display: flex
@@ -520,8 +519,9 @@ html[data-mi-dir=rtl] .xm-text,
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div37 .div39 .div40 .split_text1073 {
     color: #fff;
-    width: 1.44531rem;
-    font-size: .14063rem
+    width: 2.44531rem;
+    font-size: .14063rem;
+    margin-left: 45px;
 }
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div37 .div39 .div41 {
@@ -529,7 +529,8 @@ html[data-mi-dir=rtl] .xm-text,
     align-items: flex-start;
     width: .94531rem;
     margin-top: .13672rem;
-    display: flex
+    display: flex;
+    margin-left: 45px;
 }
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div37 .div39 .div41 .split_text1072 {
@@ -8113,7 +8114,7 @@ html[data-mi-dir=rtl] .xm-text,
 
 .div460 .slidercontainer {
     width: 6.26172rem;
-    height: 3.47266rem;
+    /* height: 3.47266rem; */
     margin-top: -4.35156rem
 }
 
@@ -8127,8 +8128,8 @@ html[data-mi-dir=rtl] .xm-text,
     justify-content: flex-start;
     height: auto;
     display: flex;
-    position: absolute;
-    top: .85938rem
+    /* position: absolute; */
+    /* top: .85938rem */
 }
 
 .div460 .scroll_text .div463 {
@@ -8723,4 +8724,14 @@ html[data-mi-dir=rtl] .xm-text,
 
 .slide-modal.hide {
   display: none;
+}
+
+/* Esconde todos os textos por padrão */
+.scroll_text {
+    display: none;
+}
+
+/* Mostra apenas o texto que tiver a classe 'active-text' */
+.scroll_text.active-text {
+    display: block;
 }
