@@ -514,7 +514,8 @@ html[data-mi-dir=rtl] .xm-text,
     flex-direction: column;
     align-items: flex-start;
     width: 1.01172rem;
-    display: flex
+    display: flex;
+    margin-top: 20px;
 }
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div37 .div39 .div40 .split_text1073 {
@@ -528,9 +529,9 @@ html[data-mi-dir=rtl] .xm-text,
     flex-direction: column;
     align-items: flex-start;
     width: .94531rem;
-    margin-top: .13672rem;
+    margin-top: .29rem;
     display: flex;
-    margin-left: 45px;
+    margin-left: 120px;
 }
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div37 .div39 .div41 .split_text1072 {
@@ -588,7 +589,7 @@ html[data-mi-dir=rtl] .xm-text,
 
 .div1.fly-birds-page_3c69a58673 .div11 .div3742 .div42 .div44 .div46 .split_text1070 {
     color: rgba(255, 255, 255, .7);
-    width: 1.09375rem;
+    width: 1.9rem;
     font-size: .10156rem
 }
 
@@ -1315,7 +1316,8 @@ html[data-mi-dir=rtl] .xm-text,
 .div1.fly-birds-page_3c69a58673 .div128 .div130 .div131 .split_text1030 {
     color: #fff;
     width: 5.625rem;
-    font-size: .28125rem
+    font-size: .28125rem;
+    font-weight: bold;
 }
 
 .div1.fly-birds-page_3c69a58673 .div128 .div130 .div132 {
@@ -1327,8 +1329,8 @@ html[data-mi-dir=rtl] .xm-text,
 
 .div1.fly-birds-page_3c69a58673 .div128 .div130 .div132 .split_text1029 {
     color: #fff;
-    width: 5.625rem;
-    font-size: .28125rem
+    width: 7.625rem;
+    font-size: .28125rem;
 }
 
 .div1.fly-birds-page_3c69a58673 .div128 .div130 .div133 {
@@ -1678,7 +1680,8 @@ html[data-mi-dir=rtl] .xm-text,
 .div1.fly-birds-page_3c69a58673 .div166 .div168 .div169 .div170 .split_text1007 {
     color: #fff;
     width: 5.46875rem;
-    font-size: .28125rem
+    font-size: .28125rem;
+    font-weight: bold;
 }
 
 .div1.fly-birds-page_3c69a58673 .div166 .div168 .div169 .div171 {
@@ -1975,7 +1978,7 @@ html[data-mi-dir=rtl] .xm-text,
     background: linear-gradient(90deg, #0d1117, #4d5d73) 0 0/100% no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
-    width: 2.92969rem;
+    width: 3.92969rem;
     font-size: .50781rem
 }
 
@@ -2018,7 +2021,8 @@ html[data-mi-dir=rtl] .xm-text,
     flex-direction: column;
     align-items: flex-start;
     width: 4.26563rem;
-    display: flex
+    display: flex;
+    font-weight: bold;
 }
 
 .div1.fly-birds-page_3c69a58673 .div203 .div205 .div206 .div207 .split_text992 {
@@ -8324,7 +8328,7 @@ html[data-mi-dir=rtl] .xm-text,
     flex-direction: column;
     align-items: flex-start;
     width: 5.92969rem;
-    margin-top: .89844rem;
+    /* margin-top: .89844rem; */
     margin-left: -.10156rem;
     display: flex
 }
