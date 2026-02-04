@@ -2716,7 +2716,7 @@ html[data-mi-dir=rtl] .xm-text,
     background: linear-gradient(90deg, #dde3e9, #9fb1c9) 0 0/100% no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
-    width: 2.92969rem;
+    width: 3.92969rem;
     font-size: .50781rem
 }
 
@@ -8739,3 +8739,4 @@ html[data-mi-dir=rtl] .xm-text,
 .scroll_text.active-text {
     display: block;
 }
+
